@@ -76,7 +76,6 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |holiday_name, supplies|    
       holiday_name.select {|k,v| v == "BBQ"}
         array_holidays << k
-      end
     end
   end
   array_holidays
