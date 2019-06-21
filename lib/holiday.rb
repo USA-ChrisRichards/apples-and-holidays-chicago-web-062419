@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ 
   array_holiday = []
    holiday_hash.keys.each do |season|
-    
+    holiday_hash[season].map do |key, value|
   end
 end
 
