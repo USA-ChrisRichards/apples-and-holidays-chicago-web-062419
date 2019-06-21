@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  print holiday_hash[0]
+  print holiday_hash.dig
      
 end
 
