@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  a = holiday_hash.dig :winter, :Christmas
+  a = holiday_hash.dig :winter, :christmas
      puts a
 end
 
