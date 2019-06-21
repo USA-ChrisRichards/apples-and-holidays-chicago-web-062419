@@ -56,10 +56,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-
-message = 
-  "#{season}:
-      #{holiday}: #{supplies}"
+  holiday_hash.each do |season, holiday|
+    binding.pry
 end
 
 def all_holidays_with_bbq(holiday_hash)
