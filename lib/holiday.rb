@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       supplies = supplies.join(", ")
       holiday = holiday.to_s
-      holiday = holiday.split('_').map(&:capitalize).join(' ') #use & when mapping over something if the map takes no parameters
+      holiday = holiday.split('_').map(&:capitalize).join(' ') #use & when mapping if map takes no parameters
       puts "  #{holiday}: #{supplies}"
         
     end
