@@ -74,7 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
    holidays = holiday_hash[:season][:holiday_name]
     holidays.each do |key|    
       binding.pry
-     end 
+
   end
 end
 
